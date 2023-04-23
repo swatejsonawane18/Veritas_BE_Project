@@ -1,0 +1,1024 @@
+[
+    {
+        "commitHash": "1d9dfc6cfbe321eff558fe197a1fa58c641083c5",
+        "authorName": "Aditi Mantri",
+        "commiterName": "Aditi Mantri",
+        "changedFiles": [
+            {
+                "fileName": ".classpath",
+                "oldPath": null,
+                "newPath": ".classpath",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": ".project",
+                "oldPath": null,
+                "newPath": ".project",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "org.eclipse.jdt.core.prefs",
+                "oldPath": null,
+                "newPath": ".settings/org.eclipse.jdt.core.prefs",
+                "changeType": "ADD",
+                "changedMethods": []
+            }
+        ]
+    },
+    {
+        "commitHash": "7910139204c3315849b7948620d50dfe11f1f35e",
+        "authorName": "Aditi Mantri",
+        "commiterName": "Aditi Mantri",
+        "changedFiles": [
+            {
+                "fileName": "Admin.class",
+                "oldPath": "bin/com/tia/bmm/server/Admin.class",
+                "newPath": "bin/com/tia/bmm/server/Admin.class",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "InvalidAdminDetails.class",
+                "oldPath": "bin/com/tia/bmm/server/InvalidAdminDetails.class",
+                "newPath": "bin/com/tia/bmm/server/InvalidAdminDetails.class",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "MainMenu.class",
+                "oldPath": "bin/com/tia/bmm/server/MainMenu.class",
+                "newPath": "bin/com/tia/bmm/server/MainMenu.class",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "Admin.java",
+                "oldPath": null,
+                "newPath": "src/com/tia/bmm/server/Admin.java",
+                "changeType": "ADD",
+                "changedMethods": [
+                    {
+                        "methodName": "Admin::loginAsAdmin",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "InvalidAdminDetails.java",
+                "oldPath": null,
+                "newPath": "src/com/tia/bmm/server/InvalidAdminDetails.java",
+                "changeType": "ADD",
+                "changedMethods": [
+                    {
+                        "methodName": "InvalidAdminDetails::toString",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "InvalidAdminDetails::InvalidAdminDetails",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "MainMenu.java",
+                "oldPath": null,
+                "newPath": "src/com/tia/bmm/server/MainMenu.java",
+                "changeType": "ADD",
+                "changedMethods": [
+                    {
+                        "methodName": "MainMenu::main",
+                        "dependentMethods": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "commitHash": "2dadf7bef7b8e579e2659d5d06225b3d280ba637",
+        "authorName": "Aditi Mantri",
+        "commiterName": "Aditi Mantri",
+        "changedFiles": [
+            {
+                "fileName": "MainMenu.class",
+                "oldPath": "bin/com/tia/bmm/server/MainMenu.class",
+                "newPath": "bin/com/tia/bmm/server/MainMenu.class",
+                "changeType": "DELETE",
+                "changedMethods": []
+            },
+            {
+                "fileName": "Admin.class",
+                "oldPath": "bin/com/tia/bmm/server/Admin.class",
+                "newPath": "bin/com/tia/bmm/server/admin/Admin.class",
+                "changeType": "RENAME",
+                "changedMethods": []
+            },
+            {
+                "fileName": "InvalidAdminDetails.class",
+                "oldPath": "bin/com/tia/bmm/server/InvalidAdminDetails.class",
+                "newPath": "bin/com/tia/bmm/server/admin/InvalidAdminDetails.class",
+                "changeType": "RENAME",
+                "changedMethods": []
+            },
+            {
+                "fileName": "MainMenu.class",
+                "oldPath": "bin/com/tia/bmm/server/main/MainMenu.class",
+                "newPath": "bin/com/tia/bmm/server/main/MainMenu.class",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "User.class",
+                "oldPath": "bin/com/tia/bmm/server/user/User.class",
+                "newPath": "bin/com/tia/bmm/server/user/User.class",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "UserList.class",
+                "oldPath": "bin/com/tia/bmm/server/user/UserList.class",
+                "newPath": "bin/com/tia/bmm/server/user/UserList.class",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "MainMenu.java",
+                "oldPath": "src/com/tia/bmm/server/MainMenu.java",
+                "newPath": null,
+                "changeType": "DELETE",
+                "changedMethods": [
+                    {
+                        "methodName": "MainMenu::main",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "Admin.java",
+                "oldPath": "src/com/tia/bmm/server/Admin.java",
+                "newPath": "src/com/tia/bmm/server/admin/Admin.java",
+                "changeType": "RENAME",
+                "changedMethods": [
+                    {
+                        "methodName": "Admin::loginAsAdmin",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "InvalidAdminDetails.java",
+                "oldPath": "src/com/tia/bmm/server/InvalidAdminDetails.java",
+                "newPath": "src/com/tia/bmm/server/admin/InvalidAdminDetails.java",
+                "changeType": "RENAME",
+                "changedMethods": []
+            },
+            {
+                "fileName": "MainMenu.java",
+                "oldPath": null,
+                "newPath": "src/com/tia/bmm/server/main/MainMenu.java",
+                "changeType": "ADD",
+                "changedMethods": [
+                    {
+                        "methodName": "MainMenu::main",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "User.java",
+                "oldPath": null,
+                "newPath": "src/com/tia/bmm/server/user/User.java",
+                "changeType": "ADD",
+                "changedMethods": [
+                    {
+                        "methodName": "User::User",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "User::User",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "UserList.java",
+                "oldPath": null,
+                "newPath": "src/com/tia/bmm/server/user/UserList.java",
+                "changeType": "ADD",
+                "changedMethods": [
+                    {
+                        "methodName": "UserList::createUser",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "UserList::loginAsUser",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "UserList::displayUsers",
+                        "dependentMethods": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "commitHash": "17b2c2f7e902a94df73fad5f5577cd25712df82a",
+        "authorName": "Aditi Mantri",
+        "commiterName": "Aditi Mantri",
+        "changedFiles": [
+            {
+                "fileName": "MainMenu.class",
+                "oldPath": "bin/com/tia/bmm/server/main/MainMenu.class",
+                "newPath": "bin/com/tia/bmm/server/main/MainMenu.class",
+                "changeType": "MODIFY",
+                "changedMethods": []
+            },
+            {
+                "fileName": "Movie.class",
+                "oldPath": "bin/com/tia/bmm/server/movie/Movie.class",
+                "newPath": "bin/com/tia/bmm/server/movie/Movie.class",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "MovieList.class",
+                "oldPath": "bin/com/tia/bmm/server/movie/MovieList.class",
+                "newPath": "bin/com/tia/bmm/server/movie/MovieList.class",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "MovieStatus.class",
+                "oldPath": "bin/com/tia/bmm/server/movie/MovieStatus.class",
+                "newPath": "bin/com/tia/bmm/server/movie/MovieStatus.class",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "MovieType.class",
+                "oldPath": "bin/com/tia/bmm/server/movie/MovieType.class",
+                "newPath": "bin/com/tia/bmm/server/movie/MovieType.class",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "Seat.class",
+                "oldPath": "bin/com/tia/bmm/server/movie/Seat.class",
+                "newPath": "bin/com/tia/bmm/server/movie/Seat.class",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "SeatStatus.class",
+                "oldPath": "bin/com/tia/bmm/server/movie/SeatStatus.class",
+                "newPath": "bin/com/tia/bmm/server/movie/SeatStatus.class",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "SeatType.class",
+                "oldPath": "bin/com/tia/bmm/server/movie/SeatType.class",
+                "newPath": "bin/com/tia/bmm/server/movie/SeatType.class",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "MainMenu.java",
+                "oldPath": "src/com/tia/bmm/server/main/MainMenu.java",
+                "newPath": "src/com/tia/bmm/server/main/MainMenu.java",
+                "changeType": "MODIFY",
+                "changedMethods": [
+                    {
+                        "methodName": "MainMenu::main",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "Movie.java",
+                "oldPath": null,
+                "newPath": "src/com/tia/bmm/server/movie/Movie.java",
+                "changeType": "ADD",
+                "changedMethods": [
+                    {
+                        "methodName": "Movie::Movie",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "Movie::displayMovie",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "Movie::Movie",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "MovieList.java",
+                "oldPath": null,
+                "newPath": "src/com/tia/bmm/server/movie/MovieList.java",
+                "changeType": "ADD",
+                "changedMethods": [
+                    {
+                        "methodName": "MovieList::displayMovieList",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "MovieList::addMovie",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "MovieStatus.java",
+                "oldPath": null,
+                "newPath": "src/com/tia/bmm/server/movie/MovieStatus.java",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "MovieType.java",
+                "oldPath": null,
+                "newPath": "src/com/tia/bmm/server/movie/MovieType.java",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "Seat.java",
+                "oldPath": null,
+                "newPath": "src/com/tia/bmm/server/movie/Seat.java",
+                "changeType": "ADD",
+                "changedMethods": [
+                    {
+                        "methodName": "Seat::Seat",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "Seat::Seat",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "SeatStatus.java",
+                "oldPath": null,
+                "newPath": "src/com/tia/bmm/server/movie/SeatStatus.java",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "SeatType.java",
+                "oldPath": null,
+                "newPath": "src/com/tia/bmm/server/movie/SeatType.java",
+                "changeType": "ADD",
+                "changedMethods": []
+            }
+        ]
+    },
+    {
+        "commitHash": "5feb55c6b0887cd82463b39fee2bc79bb633ac81",
+        "authorName": "Aditi Mantri",
+        "commiterName": "Aditi Mantri",
+        "changedFiles": [
+            {
+                "fileName": "Address.class",
+                "oldPath": "bin/com/tia/bmm/server/address/Address.class",
+                "newPath": "bin/com/tia/bmm/server/address/Address.class",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "MainMenu.class",
+                "oldPath": "bin/com/tia/bmm/server/main/MainMenu.class",
+                "newPath": "bin/com/tia/bmm/server/main/MainMenu.class",
+                "changeType": "MODIFY",
+                "changedMethods": []
+            },
+            {
+                "fileName": "Movie.class",
+                "oldPath": "bin/com/tia/bmm/server/movie/Movie.class",
+                "newPath": "bin/com/tia/bmm/server/movie/Movie.class",
+                "changeType": "MODIFY",
+                "changedMethods": []
+            },
+            {
+                "fileName": "MovieList.class",
+                "oldPath": "bin/com/tia/bmm/server/movie/MovieList.class",
+                "newPath": "bin/com/tia/bmm/server/movie/MovieList.class",
+                "changeType": "MODIFY",
+                "changedMethods": []
+            },
+            {
+                "fileName": "Theatre.class",
+                "oldPath": "bin/com/tia/bmm/server/theatre/Theatre.class",
+                "newPath": "bin/com/tia/bmm/server/theatre/Theatre.class",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "TheatreList.class",
+                "oldPath": "bin/com/tia/bmm/server/theatre/TheatreList.class",
+                "newPath": "bin/com/tia/bmm/server/theatre/TheatreList.class",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "Address.java",
+                "oldPath": null,
+                "newPath": "src/com/tia/bmm/server/address/Address.java",
+                "changeType": "ADD",
+                "changedMethods": [
+                    {
+                        "methodName": "Address::Address",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.address.Address.addAddress"
+                        ]
+                    },
+                    {
+                        "methodName": "Address::Address",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.address.Address.addAddress"
+                        ]
+                    },
+                    {
+                        "methodName": "Address::addAddress",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "Address::displayAddress",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "MainMenu.java",
+                "oldPath": "src/com/tia/bmm/server/main/MainMenu.java",
+                "newPath": "src/com/tia/bmm/server/main/MainMenu.java",
+                "changeType": "MODIFY",
+                "changedMethods": [
+                    {
+                        "methodName": "MainMenu::main",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "Movie.java",
+                "oldPath": "src/com/tia/bmm/server/movie/Movie.java",
+                "newPath": "src/com/tia/bmm/server/movie/Movie.java",
+                "changeType": "MODIFY",
+                "changedMethods": [
+                    {
+                        "methodName": "Movie::displayMovie",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "Movie::Movie",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "MovieList.java",
+                "oldPath": "src/com/tia/bmm/server/movie/MovieList.java",
+                "newPath": "src/com/tia/bmm/server/movie/MovieList.java",
+                "changeType": "MODIFY",
+                "changedMethods": [
+                    {
+                        "methodName": "MovieList::displayMovieList",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "MovieList::displayMovieList",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "Theatre.java",
+                "oldPath": null,
+                "newPath": "src/com/tia/bmm/server/theatre/Theatre.java",
+                "changeType": "ADD",
+                "changedMethods": [
+                    {
+                        "methodName": "Theatre::Theatre",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "Theatre::Theatre",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "TheatreList.java",
+                "oldPath": null,
+                "newPath": "src/com/tia/bmm/server/theatre/TheatreList.java",
+                "changeType": "ADD",
+                "changedMethods": [
+                    {
+                        "methodName": "TheatreList::addTheatre",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "TheatreList::addMovieInTheatre",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "TheatreList::displayMoviesInTheatre",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "TheatreList::displayTheatre",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "TheatreList::checkTheatreIdPresent",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "TheatreList::removeTheatre",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "TheatreList::displayTheatreList",
+                        "dependentMethods": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "commitHash": "6415228e04ff6e162eb3a225dbb8c972d897485a",
+        "authorName": "Aditi Mantri",
+        "commiterName": "Aditi Mantri",
+        "changedFiles": [
+            {
+                "fileName": "ChatClient.class",
+                "oldPath": "bin/com/tia/bmm/client/ChatClient.class",
+                "newPath": "bin/com/tia/bmm/client/ChatClient.class",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "Booking.class",
+                "oldPath": "bin/com/tia/bmm/server/booking/Booking.class",
+                "newPath": "bin/com/tia/bmm/server/booking/Booking.class",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "MyServer.class",
+                "oldPath": "bin/com/tia/bmm/server/booking/MyServer.class",
+                "newPath": "bin/com/tia/bmm/server/booking/MyServer.class",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "ChatClient.java",
+                "oldPath": null,
+                "newPath": "src/com/tia/bmm/client/ChatClient.java",
+                "changeType": "ADD",
+                "changedMethods": [
+                    {
+                        "methodName": "ChatClient::main",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "Booking.java",
+                "oldPath": null,
+                "newPath": "src/com/tia/bmm/server/booking/Booking.java",
+                "changeType": "ADD",
+                "changedMethods": []
+            },
+            {
+                "fileName": "MyServer.java",
+                "oldPath": null,
+                "newPath": "src/com/tia/bmm/server/booking/MyServer.java",
+                "changeType": "ADD",
+                "changedMethods": []
+            }
+        ]
+    },
+    {
+        "commitHash": "e48963c8473b3b1c5b019d96b7de863a76d0332a",
+        "authorName": "Aditi Mantri",
+        "commiterName": "Aditi Mantri",
+        "changedFiles": [
+            {
+                "fileName": "Address.class",
+                "oldPath": "bin/com/tia/bmm/server/address/Address.class",
+                "newPath": "bin/com/tia/bmm/server/address/Address.class",
+                "changeType": "MODIFY",
+                "changedMethods": []
+            },
+            {
+                "fileName": "Booking.class",
+                "oldPath": "bin/com/tia/bmm/server/booking/Booking.class",
+                "newPath": "bin/com/tia/bmm/server/booking/Booking.class",
+                "changeType": "MODIFY",
+                "changedMethods": []
+            },
+            {
+                "fileName": "MyServer.class",
+                "oldPath": "bin/com/tia/bmm/server/booking/MyServer.class",
+                "newPath": "bin/com/tia/bmm/server/booking/MyServer.class",
+                "changeType": "MODIFY",
+                "changedMethods": []
+            },
+            {
+                "fileName": "Movie.class",
+                "oldPath": "bin/com/tia/bmm/server/movie/Movie.class",
+                "newPath": "bin/com/tia/bmm/server/movie/Movie.class",
+                "changeType": "MODIFY",
+                "changedMethods": []
+            },
+            {
+                "fileName": "MovieList.class",
+                "oldPath": "bin/com/tia/bmm/server/movie/MovieList.class",
+                "newPath": "bin/com/tia/bmm/server/movie/MovieList.class",
+                "changeType": "MODIFY",
+                "changedMethods": []
+            },
+            {
+                "fileName": "Seat.class",
+                "oldPath": "bin/com/tia/bmm/server/movie/Seat.class",
+                "newPath": "bin/com/tia/bmm/server/movie/Seat.class",
+                "changeType": "MODIFY",
+                "changedMethods": []
+            },
+            {
+                "fileName": "Theatre.class",
+                "oldPath": "bin/com/tia/bmm/server/theatre/Theatre.class",
+                "newPath": "bin/com/tia/bmm/server/theatre/Theatre.class",
+                "changeType": "MODIFY",
+                "changedMethods": []
+            },
+            {
+                "fileName": "TheatreList.class",
+                "oldPath": "bin/com/tia/bmm/server/theatre/TheatreList.class",
+                "newPath": "bin/com/tia/bmm/server/theatre/TheatreList.class",
+                "changeType": "MODIFY",
+                "changedMethods": []
+            },
+            {
+                "fileName": "User.class",
+                "oldPath": "bin/com/tia/bmm/server/user/User.class",
+                "newPath": "bin/com/tia/bmm/server/user/User.class",
+                "changeType": "MODIFY",
+                "changedMethods": []
+            },
+            {
+                "fileName": "UserList.class",
+                "oldPath": "bin/com/tia/bmm/server/user/UserList.class",
+                "newPath": "bin/com/tia/bmm/server/user/UserList.class",
+                "changeType": "MODIFY",
+                "changedMethods": []
+            },
+            {
+                "fileName": "Address.java",
+                "oldPath": "src/com/tia/bmm/server/address/Address.java",
+                "newPath": "src/com/tia/bmm/server/address/Address.java",
+                "changeType": "MODIFY",
+                "changedMethods": [
+                    {
+                        "methodName": "Address::getStreetNo",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.address.Address.displayAddress"
+                        ]
+                    },
+                    {
+                        "methodName": "Address::setLandmark",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.address.Address.Address"
+                        ]
+                    },
+                    {
+                        "methodName": "Address::setPinCode",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.address.Address.Address"
+                        ]
+                    },
+                    {
+                        "methodName": "Address::setStreetNo",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.address.Address.Address"
+                        ]
+                    },
+                    {
+                        "methodName": "Address::getPinCode",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.address.Address.displayAddress"
+                        ]
+                    },
+                    {
+                        "methodName": "Address::setState",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.address.Address.Address"
+                        ]
+                    },
+                    {
+                        "methodName": "Address::getCity",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.address.Address.displayAddress"
+                        ]
+                    },
+                    {
+                        "methodName": "Address::Address",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.address.Address.addAddress"
+                        ]
+                    },
+                    {
+                        "methodName": "Address::setCity",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.address.Address.Address"
+                        ]
+                    },
+                    {
+                        "methodName": "Address::getState",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.address.Address.displayAddress"
+                        ]
+                    },
+                    {
+                        "methodName": "Address::displayAddress",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "Address::getLandmark",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.address.Address.displayAddress"
+                        ]
+                    }
+                ]
+            },
+            {
+                "fileName": "Booking.java",
+                "oldPath": "src/com/tia/bmm/server/booking/Booking.java",
+                "newPath": "src/com/tia/bmm/server/booking/Booking.java",
+                "changeType": "MODIFY",
+                "changedMethods": [
+                    {
+                        "methodName": "Booking::handleBooking",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "MyServer.java",
+                "oldPath": "src/com/tia/bmm/server/booking/MyServer.java",
+                "newPath": "src/com/tia/bmm/server/booking/MyServer.java",
+                "changeType": "MODIFY",
+                "changedMethods": [
+                    {
+                        "methodName": "MyServer::chatWithClient",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "Movie.java",
+                "oldPath": "src/com/tia/bmm/server/movie/Movie.java",
+                "newPath": "src/com/tia/bmm/server/movie/Movie.java",
+                "changeType": "MODIFY",
+                "changedMethods": [
+                    {
+                        "methodName": "Movie::setMovieType",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.movie.Movie.Movie"
+                        ]
+                    },
+                    {
+                        "methodName": "Movie::getMovieId",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.movie.Movie.displayMovie"
+                        ]
+                    },
+                    {
+                        "methodName": "Movie::getRating",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "Movie::setMovieId",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.movie.Movie.Movie"
+                        ]
+                    },
+                    {
+                        "methodName": "Movie::setShowAtFour",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "Movie::getShowAtFour",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.movie.Movie.Movie"
+                        ]
+                    },
+                    {
+                        "methodName": "Movie::setRating",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.movie.Movie.Movie"
+                        ]
+                    },
+                    {
+                        "methodName": "Movie::Movie",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "Movie::getMovieType",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "Movie::getMovieName",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.movie.Movie.displayMovie"
+                        ]
+                    },
+                    {
+                        "methodName": "Movie::displayMovie",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "Movie::setMovieName",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.movie.Movie.Movie"
+                        ]
+                    }
+                ]
+            },
+            {
+                "fileName": "MovieList.java",
+                "oldPath": "src/com/tia/bmm/server/movie/MovieList.java",
+                "newPath": "src/com/tia/bmm/server/movie/MovieList.java",
+                "changeType": "MODIFY",
+                "changedMethods": [
+                    {
+                        "methodName": "MovieList::displayMovieList",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "Seat.java",
+                "oldPath": "src/com/tia/bmm/server/movie/Seat.java",
+                "newPath": "src/com/tia/bmm/server/movie/Seat.java",
+                "changeType": "MODIFY",
+                "changedMethods": [
+                    {
+                        "methodName": "Seat::getSeatStatus",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "Seat::setSeatStatus",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.movie.Seat.Seat"
+                        ]
+                    },
+                    {
+                        "methodName": "Seat::getSeatNo",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "Seat::Seat",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "Seat::Seat",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "Seat::setSeatNo",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.movie.Seat.Seat"
+                        ]
+                    }
+                ]
+            },
+            {
+                "fileName": "Theatre.java",
+                "oldPath": "src/com/tia/bmm/server/theatre/Theatre.java",
+                "newPath": "src/com/tia/bmm/server/theatre/Theatre.java",
+                "changeType": "MODIFY",
+                "changedMethods": [
+                    {
+                        "methodName": "Theatre::Theatre",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "Theatre::setTheatreName",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.theatre.Theatre.Theatre"
+                        ]
+                    },
+                    {
+                        "methodName": "Theatre::getMovies",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "Theatre::setMovies",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "Theatre::getTheatreName",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "Theatre::Theatre",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "TheatreList.java",
+                "oldPath": "src/com/tia/bmm/server/theatre/TheatreList.java",
+                "newPath": "src/com/tia/bmm/server/theatre/TheatreList.java",
+                "changeType": "MODIFY",
+                "changedMethods": [
+                    {
+                        "methodName": "TheatreList::addMovieInTheatre",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "TheatreList::displayMoviesInTheatre",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "TheatreList::displayTheatre",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "TheatreList::displayTheatreList",
+                        "dependentMethods": []
+                    }
+                ]
+            },
+            {
+                "fileName": "User.java",
+                "oldPath": "src/com/tia/bmm/server/user/User.java",
+                "newPath": "src/com/tia/bmm/server/user/User.java",
+                "changeType": "MODIFY",
+                "changedMethods": [
+                    {
+                        "methodName": "User::setEmailId",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.user.User.User"
+                        ]
+                    },
+                    {
+                        "methodName": "User::User",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "User::User",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "User::getEmailId",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.user.UserList.loginAsUser",
+                            "com.tia.bmm.server.user.UserList.displayUsers"
+                        ]
+                    }
+                ]
+            },
+            {
+                "fileName": "UserList.java",
+                "oldPath": "src/com/tia/bmm/server/user/UserList.java",
+                "newPath": "src/com/tia/bmm/server/user/UserList.java",
+                "changeType": "MODIFY",
+                "changedMethods": [
+                    {
+                        "methodName": "UserList::createUser",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "UserList::getUl",
+                        "dependentMethods": [
+                            "com.tia.bmm.server.user.UserList.createUser",
+                            "com.tia.bmm.server.user.UserList.loginAsUser",
+                            "com.tia.bmm.server.user.UserList.displayUsers"
+                        ]
+                    },
+                    {
+                        "methodName": "UserList::loginAsUser",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "UserList::displayUsers",
+                        "dependentMethods": []
+                    },
+                    {
+                        "methodName": "UserList::setUl",
+                        "dependentMethods": []
+                    }
+                ]
+            }
+        ]
+    }
+]
